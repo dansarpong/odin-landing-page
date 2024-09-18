@@ -93,6 +93,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .random .header {
@@ -120,4 +121,29 @@ body {
     border: 5px solid #3882f6;
     border-radius: 16px;
     margin-bottom: 10px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.quote > * {
+    width: 750px;
+}
+
+.quote .text {
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote .sub {
+    text-align: right;
+    font-weight: 900;
+    font-size: 18px;
 }
