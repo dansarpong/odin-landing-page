@@ -30,7 +30,7 @@ body {
     align-items: center;
 }
 
-.hero > * {
+.hero > *, .cta > * {
     width: 1000px;
 }
 
@@ -146,4 +146,32 @@ body {
     text-align: right;
     font-weight: 900;
     font-size: 18px;
+}
+
+.cta .container{
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+
+.cta .container .main .header {
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.cta .container .main .sub {
+    color: #e5e7eb;
+}
+
+.cta .container button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 6px 14px;
+    font-weight: 900;
 }
